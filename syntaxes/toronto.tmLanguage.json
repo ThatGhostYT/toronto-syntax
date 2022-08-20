@@ -23,10 +23,20 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.toronto",
-				"match": "\\b(if|else|elsif|mut|class|public|private|TORONTO|constructor|destructor|from|to|for|return|var|func)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.toronto",
+					"match": "\\b(if|else|elsif|mut|class|public|private|for|return|var|func)\\b"
+				},
+				{
+					"name": "keyword.operator.assignment.toronto",
+					"match": "(=)"
+				},
+				{
+					"name": "keyword.operator.arithmetic.toronto",
+					"match": "(-|\\*|/|\\+|%)"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.toronto",
