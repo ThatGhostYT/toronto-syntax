@@ -1,0 +1,25 @@
+{
+  "name": "yoronto",
+  "displayName": "Toronto",
+  "description": "Syntax higlighting for Toronto",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "toronto",
+      "aliases": ["toronto", "toronto"],
+      "extensions": [".toronto"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "toronto",
+      "scopeName": "source.toronto",
+      "path": "./syntaxes/toronto.tmLanguage.json"
+    }]
+  }
+}

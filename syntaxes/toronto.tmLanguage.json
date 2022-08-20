@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "toronto",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#identifiers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.toronto",
+				"match": "\\b(if|else|elsif|mut|class|public|private|for|return|var|func)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.toronto",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.toronto",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.double-slash.toronto",
+				"match": "\/\/[^\n]*"
+			}]
+		},
+		"types": {
+			"patterns": [{
+				"name": "storage.type.toronto",
+				"match": "\\b(int|string|char|bool|num|void)\\b"
+			}]
+		},
+		"numbers":{
+			"patterns": [{
+				"name": "constant.numeric.toronto",
+				"match": "\\b(0|[1-9][0-9]*)\\b"
+			}]
+		}
+	},
+	"scopeName": "source.toronto"
+}
