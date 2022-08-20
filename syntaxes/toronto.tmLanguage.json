@@ -25,7 +25,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.toronto",
-				"match": "\\b(if|else|elsif|mut|class|public|private|for|return|var|func)\\b"
+				"match": "\\b(if|else|elsif|mut|class|public|private|TORONTO|constructor|destructor|from|to|for|return|var|func)\\b"
 			}]
 		},
 		"strings": {
