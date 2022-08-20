@@ -26,11 +26,11 @@
 			"patterns": [
 				{
 					"name": "keyword.control.toronto",
-					"match": "\\b(if|else|elsif|mut|class|public|private|for|return|var|func)\\b"
+					"match": "\\b(if|else|elsif|TORONTO|constructor|destructor|mut|class|public|private|for|return|var|func)\\b"
 				},
 				{
 					"name": "keyword.operator.assignment.toronto",
-					"match": "(=)"
+					"match": "(=|:=)"
 				},
 				{
 					"name": "keyword.operator.arithmetic.toronto",
