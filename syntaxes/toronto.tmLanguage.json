@@ -12,6 +12,9 @@
 			"include": "#strings"
 		},
 		{
+			"include": "#chars"
+		},
+		{
 			"include": "#types"
 		},
 		{
@@ -53,6 +56,15 @@
 				}
 			]
 		},
+		"chars": {
+			"name": "string.quoted.single.toronto",
+			"begin": "'",
+			"end": "'",
+			"patterns": [{
+				"name": "constant.character.escape.toronto",
+				"match": "\\\\."
+			}]
+		},
 		"comments": {
 			"patterns": [{
 				"name": "comment.line.double-slash.toronto",
@@ -60,10 +72,16 @@
 			}]
 		},
 		"types": {
-			"patterns": [{
-				"name": "storage.type.toronto",
-				"match": "\\b(int|string|char|bool|num|void)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "storage.type.toronto",
+					"match": "\\b(int|string|char|bool|num|void)\\b"
+				},
+				{
+					"name": "storage.type.toronto",
+					"match": "\\b"
+				}
+			]
 		},
 		"numbers":{
 			"patterns": [{
