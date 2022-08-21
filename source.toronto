@@ -1,5 +1,0 @@
-func void main(... string args){
-    for mut i from 0 to #args {
-        TORONTO::printl(args[i])
-    }
-}

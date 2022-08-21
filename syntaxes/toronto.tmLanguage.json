@@ -26,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.toronto",
-					"match": "\\b(from|to|if|else|elsif|TORONTO|constructor|destructor|mut|class|public|private|for|return|var|func)\\b"
+					"match": "\\b(this|from|to|if|else|elsif|TORONTO|constructor|destructor|mut|class|public|private|for|return|var|func)\\b"
 				},
 				{
 					"name": "keyword.operator.assignment.toronto",
