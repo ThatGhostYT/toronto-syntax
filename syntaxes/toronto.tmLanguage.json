@@ -19,9 +19,6 @@
 		},
 		{
 			"include": "#identifiers"
-		},
-		{
-			"include": "#chars"
 		}
 	],
 	"repository": {
@@ -55,15 +52,6 @@
 					"match": "\\\\."
 				}
 			]
-		},
-		"chars": {
-			"name": "string.quoted.single.toronto",
-			"begin": "'",
-			"end": "'",
-			"patterns": [{
-				"name": "constant.character.escape.toronto",
-				"match": "\\\\."
-			}]
 		},
 		"comments": {
 			"patterns": [{
