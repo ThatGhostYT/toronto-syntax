@@ -42,7 +42,7 @@
 				},
 				{
 					"name": "keyword.operator.other.toronto",
-					"match": "(~|#|=>|...)"
+					"match": "(~|#|=>|\\.\\.\\.)"
 				}
 			]
 		},
