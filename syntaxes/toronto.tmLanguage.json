@@ -39,6 +39,10 @@
 				{
 					"name": "keyword.operator.logic.toronto",
 					"match": "(==|!|>|<|>=|<=|!=)"
+				},
+				{
+					"name": "keyword.operator.other.toronto",
+					"match": "(~|#)"
 				}
 			]
 		},

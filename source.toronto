@@ -1,0 +1,43 @@
+// comments
+
+// types
+int string char bool num void
+
+// math operators
++ - * / %
+
+// logic operators
+== ! > < <= >= !=
+
+// assignment operators
+= :=
+
+// other operators
+~ #
+
+// brackets
+{} () [] <>
+
+// strings
+"Hello World!"
+
+// chars
+'H'
+
+// keywords
+from
+to
+if
+else
+elsif
+TORONTO
+constructor
+destructor
+mut
+class
+public
+private
+for
+return
+var
+func
