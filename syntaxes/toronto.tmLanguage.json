@@ -64,10 +64,6 @@
 				{
 					"name": "storage.type.toronto",
 					"match": "\\b(int|string|char|bool|num|void)\\b"
-				},
-				{
-					"name": "storage.type.toronto",
-					"match": "\\b"
 				}
 			]
 		},
