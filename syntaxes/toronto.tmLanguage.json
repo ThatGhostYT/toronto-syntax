@@ -70,12 +70,6 @@
 				"name": "constant.numeric.toronto",
 				"match": "\\b(0|[1-9][0-9]*)\\b"
 			}]
-		},
-		"identifiers": {
-			"patterns": [{
-				"name": "identifier.toronto",
-				"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
-			}]
 		}
 	},
 	"scopeName": "source.toronto"
