@@ -12,9 +12,6 @@
 			"include": "#strings"
 		},
 		{
-			"include": "#chars"
-		},
-		{
 			"include": "#types"
 		},
 		{
@@ -22,6 +19,9 @@
 		},
 		{
 			"include": "#identifiers"
+		},
+		{
+			"include": "#chars"
 		}
 	],
 	"repository": {
