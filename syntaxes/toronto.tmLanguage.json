@@ -47,9 +47,9 @@
 			]
 		},
 		"strings": {
-			"name": "string.quoted.double.toronto",
-			"begin": "\"",
-			"end": "\"",
+			"name": "string.quoted.toronto",
+			"begin": "(\"|')",
+			"end": "(\"|')",
 			"patterns": [
 				{
 					"name": "constant.character.escape.toronto",
