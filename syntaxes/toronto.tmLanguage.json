@@ -38,7 +38,7 @@
 				},
 				{
 					"name": "keyword.operator.logic.toronto",
-					"match": "(==|!|>|<||>=|<=|!=|or|&)"
+					"match": "(==|!|>|<|>=|<=|!=)"
 				}
 			]
 		},
